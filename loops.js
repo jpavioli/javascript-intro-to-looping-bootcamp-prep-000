@@ -1,4 +1,4 @@
 //"I am ___ strange loop"
-for(var i=1;i<10;i++){
-  return "I am a strange loop"
+for(var i=0;i<25;i++){
+  return "I am "+i+" strange loop"
 }
