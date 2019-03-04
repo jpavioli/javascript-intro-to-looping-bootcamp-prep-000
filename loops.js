@@ -14,7 +14,8 @@ function forLoop (array){
 //while loop countdown
 function whileLoop(n){
   while (n > -1) {
-    console.log(--n);
+    console.log(n);
+    --n;
   }
   return done
 }
