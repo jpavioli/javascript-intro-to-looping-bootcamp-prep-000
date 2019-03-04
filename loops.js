@@ -1,7 +1,7 @@
 //"I am ___ strange loop"
 function forLoop (array){
   for(let i=0;i<25;i++){
-  array.push("I am "+i+" strange loops.")
+  array.push("I am "+i+" strange loop.")
   }
   return array
 }
