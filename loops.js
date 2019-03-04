@@ -1,4 +1,8 @@
 //"I am ___ strange loop"
-for(let i=0;i<25;i++){
-  console.log("I am "+i+" strange loops.")
-}
+var loopy = []
+
+function forLoop (loopy)
+  for(let i=0;i<25;i++){
+  loopy=[loopy,"I am "+i+" strange loops."]
+  }
+  return loopy
