@@ -20,3 +20,12 @@ function whileLoop(n){
 }
 
 //do while loop
+function doWhileLoop(num){
+      function incrementVariable(){
+         i++
+         return i
+      }
+  do {
+      console.log("I run once regadless.")
+  } while (incrementVariable()<num)
+}
